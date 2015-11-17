@@ -35,9 +35,9 @@ Using cbind and rbind I combine the data sets in this section
 There are actually three sections here.  In trying to learn the best way to do this 
 I have actually used three different methods
 
-- using dplyr
-- using reshape2
-- using nested for loops
+- using dplyr (variable name: summarydat_dplyr)
+- using reshape2 (variable name: summarydat_reshape)
+- using nested for loops (variable name: summarydf_for)
 
 Each method gives the same result - a 180 x 81 data frame with the mean of each 
 variable from the merged data set.  
